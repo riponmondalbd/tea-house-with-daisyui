@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/5ce96db8a2.js" crossorigin="anonymous"></script>
+
     <!-- tailwind custom color -->
     <script>
         tailwind.config = {
@@ -36,7 +39,33 @@
 </head>
 
 <body class="font-manrope">
-    <header></header>
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+                <div>
+                    <h1 class="text-7xl font-extrabold">
+                        It's good <br>
+                        tea time at The <br>
+                        Tea House
+                    </h1>
+                    <p class="py-6">
+                        Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn btn-primary">Explore More</button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="" />
+                    <div class="flex items-center gap-3 drop-shadow-lg rounded-lg bg-white p-5 w-64 -mt-24 ml-28">
+                        <i class="fa-solid fa-star text-5xl text-amber-400"></i>
+                        <div>
+                            <h3 class="text-3xl">5.00</h3>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <main></main>
     <footer></footer>
 </body>
